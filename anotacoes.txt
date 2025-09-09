@@ -1,0 +1,20 @@
+Explicação de uma linha de comando:
+<space> cd 
+tecla espaço + tecla "c" + tecla "d"
+
+Comandos:
+<space> cd -> abre o explorador de arquivos
+<space> ff -> procurar arquivo (tipo shift+p no vscode)
+<space> fg -> procurar por funcao, variavel, etc (texto dentro de arquivos)
+
+Comandos no modo normal:
+:e init.lua -> procura e abre o arquivo init.lua
+
+Como configurar uma nova linguagem:
+ir no arquivo /lua/plugins/treesitter.lua
+na lista de linguagens, adicionar a desejada (ex: "tsx")
+(no github do neovim tree sitter, tem a lista de linguagens suportadas)
+
+Atalhos no explorador de arquivos:
+Criar arquivo -> shift + 5
+Criar pasta -> d 

@@ -1,12 +1,12 @@
 return {
-	{
-		'tpope/vim-fugitive',
-	},
-	{
-		'stevearc/conform.nvim',
-		opts = {},
-	},
-    { "nvim-tree/nvim-web-devicons", opts = {} },
+     {
+	'tpope/vim-fugitive',
+     },
+     {
+	'stevearc/conform.nvim',
+	opts = {},
+     },
+     { "nvim-tree/nvim-web-devicons", opts = {} },
      {
         "prichrd/netrw.nvim",
         dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -16,4 +16,14 @@ return {
             })
         end,
     },
+    {
+	'windwp/nvim-autopairs',
+	event = "InsertEnter",
+	config = true
+	-- use opts = {} for passing setup options
+	-- this is equivalent to setup({}) function
+    },
+    {
+	"github/copilot.vim",
+    }
 }

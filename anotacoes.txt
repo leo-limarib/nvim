@@ -10,11 +10,6 @@ Comandos:
 Comandos no modo normal:
 :e init.lua -> procura e abre o arquivo init.lua
 
-Como configurar uma nova linguagem:
-ir no arquivo /lua/plugins/treesitter.lua
-na lista de linguagens, adicionar a desejada (ex: "tsx")
-(no github do neovim tree sitter, tem a lista de linguagens suportadas)
-
 Atalhos no explorador de arquivos:
 Criar arquivo -> shift + 5
 Criar pasta -> d 

@@ -127,7 +127,7 @@ return {
 						settings = {
 							javascript = {
 								format = {
-									indentSize = 2,
+									indentSize = 4,
 									convertTabsToSpaces = true,
 								},
 								suggest = { autoImports = true },
@@ -135,7 +135,7 @@ return {
 							},
 							typescript = {
 								format = {
-									indentSize = 2,
+									indentSize = 4,
 									convertTabsToSpaces = true,
 								},
 								inlayHints = {
@@ -192,7 +192,7 @@ return {
 				{ name = 'path' },
 				{ name = 'nvim_lsp' },
 				{ name = 'buffer',  keyword_length = 3 },
-				{ name = 'luasnip', keyword_length = 2 },
+				{ name = 'luasnip', keyword_length = 4 },
 			},
 			snippet = {
 				expand = function(args)

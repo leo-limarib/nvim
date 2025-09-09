@@ -14,4 +14,7 @@ choco install mingw
 :Copilot setup
 ```
 
-5) Rodar :checkhealth para verificar se está tudo ok.
+5) Rodar o comando abaixo para verificar se tudo está ok
+```
+:checkhealth
+```
